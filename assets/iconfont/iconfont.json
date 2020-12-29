@@ -1,0 +1,44 @@
+{
+  "id": "2297439",
+  "name": "糗事",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7369253",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "8406813",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9974408",
+      "name": "踩",
+      "font_class": "cai",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    },
+    {
+      "icon_id": "11218228",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e719",
+      "unicode_decimal": 59161
+    },
+    {
+      "icon_id": "14145127",
+      "name": "笔",
+      "font_class": "bi",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    }
+  ]
+}

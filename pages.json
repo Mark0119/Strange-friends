@@ -31,6 +31,15 @@
             }
             
         }
+        ,{
+            "path" : "component/TransparentBox/TransparentBox",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

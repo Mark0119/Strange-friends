@@ -40,6 +40,33 @@
             }
             
         }
+        ,{
+            "path" : "component/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "component/slideNav/slideNav",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "component/loding/loding",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -47,10 +74,12 @@
 		"backgroundColor": "#F8F8F8",
 		"navigationStyle": "custom",
 		"usingComponents": {
+			// app插件
 			"van-search": "wxcomponents/vant/search/index",
 			"van-tab": "wxcomponents/vant/tab/index",
 			"van-tabs": "wxcomponents/vant/tabs/index",
 			"van-loading": "wxcomponents/vant/loading/index"
+			// h5插件
 		}
 	},
 	"tabBar": {

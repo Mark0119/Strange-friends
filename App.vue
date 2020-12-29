@@ -39,5 +39,6 @@
 	/* //字体图标 */
 	@import url("@/assets/iconfont/iconfont.css");
 	/* //导入vant样式 */
-	@import "/wxcomponents/vant/common/index.wxss";
+	@import "@/wxcomponents/vant/common/index.wxss";
+
 </style>

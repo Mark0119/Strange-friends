@@ -67,6 +67,15 @@
             }
             
         }
+        ,{
+            "path" : "component/IndexContent/IndexContent",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

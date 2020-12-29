@@ -1,5 +1,5 @@
 <template>
-	<view :style="{height:`${$store.getters.GetEquipmentContentHeight+$store.getters.GetEquipmentNavHeight}px`}" class="flex justify-center align-center">
+	<view class="wh-100 flex justify-center align-center">
 		<view><van-loading size="24px" vertical>{{lodingText}}</van-loading></view>
 	</view>
 </template>

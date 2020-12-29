@@ -1,8 +1,8 @@
 <template>
 	<view class="">
 		<!-- 加载 -->
-		<view v-if="loding==false">
-			<my-loding :lodingText="lodingText"></my-loding>
+		<view v-if="loding==false" :style="{height:`${$store.getters.GetEquipmentContentHeight+$store.getters.GetEquipmentNavHeight}px`}">
+			<my-loding :lodingText="lodingText"></my-loding> 
 		</view>
 		<!-- 内容 -->
 		<view v-if="loding==true">
@@ -29,7 +29,7 @@
 
 <script>
 	// 导入组件
-	import loding from '@/component/loding/loding.vue' //透明盒子
+	import loding from '@/component/loding/loding.vue' //加载
 	import TransparentBox from '@/component/TransparentBox/TransparentBox.vue' //透明盒子
 	import search from '@/component/search/search.vue' //搜索框
 	import slideNav from '@/component/slideNav/slideNav.vue' //滑动导航
@@ -42,7 +42,7 @@
 		// 组件注册
 		components: {
 
-			"my-loding": loding, //导航占位符
+			"my-loding": loding, //加载
 			"my-TransparentBox": TransparentBox, //导航占位符
 			"my-Search": search, //搜索框
 			"my-SlideNav": slideNav, //滑动导航

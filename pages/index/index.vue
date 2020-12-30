@@ -18,7 +18,7 @@
 						<my-Search :InputText="InputText"></my-Search>
 					</view>
 					<!-- 滑动导航组件 -->
-					<view class="bg-danger">
+					<view>
 						<my-SlideNav :IndexNavList='IndexNavList'></my-SlideNav>
 					</view>
 				</view>
@@ -36,7 +36,7 @@
 	// 导入api	
 	import {
 		IndexNav
-	} from '@/api/IndexNav.js'
+	} from '@/api/Index/IndexNav.js'
 	// 导入function
 	export default {
 		// 组件注册
@@ -47,9 +47,9 @@
 			"my-Search": search, //搜索框
 			"my-SlideNav": slideNav, //滑动导航
 		},
-		data() {
+		data() { 
 			return {
-				lodingText: '正在加载...',
+				lodingText: '正在加载...', 
 				loding: false,
 				InputText: '搜索帖子',
 				IndexNavList: [],
